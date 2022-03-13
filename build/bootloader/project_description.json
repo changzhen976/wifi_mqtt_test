@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "C:/MINE/esp_idf/esp-idf/components/bootloader/subproject",
+    "build_dir":          "C:/MINE/Project/ESP32_idf/wifi_mqtt_test/build/bootloader",
+    "config_file":        "C:/MINE/Project/ESP32_idf/wifi_mqtt_test/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4-beta1-284-gd83021a6e8",
+    "target":             "esp32c3",
+    "rev":                "",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "riscv32-esp-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "C:/MINE/esp_idf/esp-idf/components/efuse/Kconfig;C:/MINE/esp_idf/esp-idf/components/esp32c3/Kconfig;C:/MINE/esp_idf/esp-idf/components/esp_common/Kconfig;C:/MINE/esp_idf/esp-idf/components/esp_hw_support/Kconfig;C:/MINE/esp_idf/esp-idf/components/esp_system/Kconfig;C:/MINE/esp_idf/esp-idf/components/freertos/Kconfig;C:/MINE/esp_idf/esp-idf/components/hal/Kconfig;C:/MINE/esp_idf/esp-idf/components/log/Kconfig;C:/MINE/esp_idf/esp-idf/components/newlib/Kconfig;C:/MINE/esp_idf/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "C:/MINE/esp_idf/esp-idf/components/bootloader/Kconfig.projbuild;C:/MINE/esp_idf/esp-idf/components/esp_rom/Kconfig.projbuild;C:/MINE/esp_idf/esp-idf/components/esptool_py/Kconfig.projbuild;C:/MINE/esp_idf/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32c3", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "riscv", "soc", "spi_flash", "" ],
+    "build_component_paths" : [ "C:/MINE/esp_idf/esp-idf/components/bootloader", "C:/MINE/esp_idf/esp-idf/components/bootloader_support", "C:/MINE/esp_idf/esp-idf/components/efuse", "C:/MINE/esp_idf/esp-idf/components/esp32c3", "C:/MINE/esp_idf/esp-idf/components/esp_common", "C:/MINE/esp_idf/esp-idf/components/esp_hw_support", "C:/MINE/esp_idf/esp-idf/components/esp_rom", "C:/MINE/esp_idf/esp-idf/components/esp_system", "C:/MINE/esp_idf/esp-idf/components/esptool_py", "C:/MINE/esp_idf/esp-idf/components/freertos", "C:/MINE/esp_idf/esp-idf/components/hal", "C:/MINE/esp_idf/esp-idf/components/log", "C:/MINE/esp_idf/esp-idf/components/bootloader/subproject/main", "C:/MINE/esp_idf/esp-idf/components/bootloader/subproject/components/micro-ecc", "C:/MINE/esp_idf/esp-idf/components/newlib", "C:/MINE/esp_idf/esp-idf/components/partition_table", "C:/MINE/esp_idf/esp-idf/components/riscv", "C:/MINE/esp_idf/esp-idf/components/soc", "C:/MINE/esp_idf/esp-idf/components/spi_flash", "" ]
+}
